@@ -2,5 +2,5 @@
 
 use Illuminate\Support\Facades\Schedule;
 
-Schedule::command('telescope:prune --hours=1')->everyMinute();
+Schedule::command('telescope:prune --hours=24')->daily();
 
